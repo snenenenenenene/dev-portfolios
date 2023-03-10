@@ -443,6 +443,7 @@ Hopefully this repo can serve as a source of inspiration for your portfolio!
 - [Saurav M H](https://sauravmh.com)
 - [Scott Spence](https://scottspence.com)
 - [Sebastian Richter](https://gismo1337.dev/)
+- [Senne Bels](https://www.sennebels.xyz/)
 - [Sergei Chestakov](https://sergei.com)
 - [Seth Hall](https://sethhallcreative.com)
 - [Serhii Hidenko](https://lookmy.dev/)
