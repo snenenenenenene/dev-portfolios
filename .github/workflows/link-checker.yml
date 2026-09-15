@@ -1,8 +1,17 @@
 on:
+ # Schedule retired 2026-09-15 (routine conversion row #35).
+ # The link check now runs on Senne's Mac as the Hermes cron job
+ # `dev-portfolios link check` (profile darryl, 0 18 * * * local).
+ # This workflow had never run on GitHub (it was not even registered).
+ # Its issue-creating half is impossible here: Issues are disabled on this
+ # repo. The Mac job reports the broken links instead.
+ # Kept runnable by hand via workflow_dispatch / repository_dispatch.
+ #
+ # ROLLBACK: restore the two lines below and drop the Mac job.
+ # schedule:
+ #   - cron: "00 18 * * *"
  repository_dispatch:
  workflow_dispatch:
- schedule:
-   - cron: "00 18 * * *"
 name: Check markdown links
 jobs:
   linkChecker:
